@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+/* responsividade falha*/
 @media screen and (max-width: 830px) {
     #dandroids{
         display: flex;
@@ -11,29 +11,48 @@
         width: auto;
         margin: auto;
     }
+
+    footer{
+        margin-top: 0px;
+    }
 }
 
 @media screen and (max-width: 525px) {
+header{
+    margin: auto;
+    width: 412px;
+
+}    
+header>p{
+    font-size: 12px;
+}
+
 nav {
-    
     text-align: center;
-    padding-bottom: 0px;
-    box-sizing: content-box;
     height: 35px;
-
-}
-nav > a{
     display: inline-block;
+    padding-bottom: 10px;
 }
-
+main{
+    width: 412px;
+}
 h2{
     text-align: center;
 }
 
+aside > ul{
+    padding: 5px;
+}
 #bugdroid{
     display: block;
     width: auto;
     margin: auto;
-
+}
+footer{
+    width: 412px;
+    margin-top: 0px;
+}
+footer>nav>a{
+    margin: auto;
 }
 }

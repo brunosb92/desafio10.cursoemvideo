@@ -186,7 +186,7 @@ footer{
     font-family: var(--font0);
     font-size: 0.8rem;
     background: var(--cor5);
-    margin: 20px auto auto auto;
+    margin: auto;
     padding: 5px;
     text-align: center;
 }
